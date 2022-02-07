@@ -16,22 +16,25 @@
 
 <body>
 
-  <h1>
-    Documentation for Group 1.
-  </h1>
-  <h2>
-    Contact information:
-  </h2>
+  <h1>Documentation for Group 1.</h1>
+  <h2>Contact information:</h2>
   <p>1- Sveinn Frimannsson:            sveinnif@hiof.no</p>
   <p>2- Abdelaziz Qassi:               abdelazq@hiof.no</p>
   <p>3- Fryderyk Andrzej Roszuk:       fryderyk.a.roszuk@hiof.no</p>
   <p>4- Abdulgadir Abdiwali Faarah:    abdulgadir.a.faarah@hiof.no</p>
-  <p>5- Husam Khudhair Tuaib Al Bozid: husam.k.bozid@hiof.no</p>
-  <p>6- Stian Michael Magnussen:       stianmag@hiof.no</p>
+  <p>5- Stian Michael Magnussen:       stianmag@hiof.no</p>
 
-  <h2>
-    How the website was made:
-  </h2>
+  <h2>What we did not have time to do:</h2>
+  <ul>
+    <li>Forgotten password for students.</li>
+    <li>Overview of reported messages for administrators.</li>
+    <li>Reporting messages as a guest.</li>
+    <li>When a student or lecturer visit the "open" site, their actions should be tied to the user</li>
+    <li>Creating an app</li>
+    <li>If an app is made, it should be possible to download the .apk file</li>
+  </ul>
+  
+  <h2>How the website was made:</h2>
   <p>* We started with aquiering approval to fork an existing open source project that had some of the basic functionality needed to make the website work.</p>
   <p>* Source code can be found here: <a href='https://github.com/SveinnIF/User-Management-PHP-MYSQL' > GitHub page.</a></p>
   <p>* The server was set up in a similar manor as the <a href='https://www.cloudbooklet.com/how-to-install-lamp-apache-mysql-php-in-ubuntu-20-04/' > LAMP server tutorial</a> though with a few modifications and additions.</p>
@@ -41,12 +44,13 @@
   <p> Now it asks for forgotten password if the lecturer has written the wrong
     password once, the lecturer is then prompted to input their mail address after
     which they will get a mail with a custom link that takes them to the reset page where they can input a new password.</p>
-  <h3>Api system</h3>
-  <p>APi stand for Application programming Interface, it's engine under the hood.
-    it's what others can't see on front-end. It takes the request and tell the system
-    what you want to do and then return the response back to you. The api was created to show information of
-    registered student in the course as json file in the back-end. You must write specific student Id number to get full info.
-    Id must be written as integer otherwise will not get write info. </p>
+  
+  <h3>API system</h3>
+  <p>API stands for Application programming Interface, it's the engine under the hood.
+    It's what others can't see on front-end. It takes the request and tells the system
+    what you want to do and then returns the response back to you. The API was created to show information of
+    registered student in the course as a JSON file in the back-end. You must write specific student ID number to get full info.
+    ID must be written as integer otherwise you will not get write info. </p>
   <p>* Api source code can be found here: <a href='https://github.com/SveinnIF/User-Management-PHP-MYSQL' > GitHub page.</a></p>
  
 
